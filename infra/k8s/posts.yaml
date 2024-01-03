@@ -5,4 +5,5 @@ metadata:
 spec:
   containers:
     - name: posts
-      image: jparrish/posts:0.0.1
+      image: jparrishjr/posts:0.0.1
+      imagePullPolicy: Never
