@@ -15,8 +15,7 @@ spec:
       containers:
         - name: event-bus
           image: jparrishjr/event-bus
-          imagePullPolicy: Never
-
+          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service

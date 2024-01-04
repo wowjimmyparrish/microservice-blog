@@ -15,7 +15,9 @@ spec:
       containers:
         - name: posts
           image: jparrishjr/posts:latest
-          imagePullPolicy: Never
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 4000
 
 ---
 apiVersion: v1
